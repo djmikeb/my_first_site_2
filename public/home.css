@@ -1,0 +1,329 @@
+
+
+
+
+.clearfix:after
+{
+    content: ".";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:both;
+}
+
+
+
+* {margin:0;padding:0;}
+
+html{
+    height:100%;
+}
+
+body
+{
+    height:100%;
+    background:#ffffff;
+    text-align: left;
+    font-family: helvetica, arial, sans-serif;
+    line-height: 20px;
+    font-size:12px;
+    color:#999999;
+
+}
+
+h1{
+    color: #444444;
+    font-size:18px;
+    font-family: helvetica, arial, sans-serif;
+    letter-spacing:-1px;
+    margin-top:40px;
+}
+
+h2{
+    color: #00a6d5;
+    font-size:16px;
+    line-height:24px;
+    font-family: helvetica, arial, sans-serif;
+    margin-top:18px;
+    text-transform:lowercase;
+}
+
+h3{
+    color: #666666;
+    font-size:12px;
+    font-family: helvetica, arial, sans-serif;
+    margin-bottom:20px;
+}
+
+h4{
+    font-family: helvetica, arial, sans-serif;
+    font-style:italic;
+    font-size:22px;
+    font-weight:normal;
+    line-height:35px;
+    letter-spacing:-1px;
+    color:#999999;
+}
+
+p{
+    color: #666666;
+    font-size:12px;
+    font-family: helvetica, arial, sans-serif;
+    font-weight: normal;
+    line-height:20px;
+    margin-bottom:45px;
+}
+
+a{
+    color:#00a6d5;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#000000;
+}
+
+
+small{
+    color:#999999;
+    font-size:9px;
+    text-transform:uppercase;
+}
+
+
+
+iframe{
+  padding-left: 50px;
+}
+
+
+
+ul{
+    list-style:none;
+
+    margin:0 0;
+    margin-left:45px;
+    margin-bottom:36px;
+}
+
+li{
+    padding-top:12px;
+}
+
+
+
+
+
+#siteWrapper{
+    position:relative;
+    min-height:100%;
+    margin-bottom:-300px;
+}
+
+#main{
+    overflow:hidden;
+padding-bottom: 300px;
+}
+
+#header{
+    position: absolute;
+
+
+}
+
+#logoHead{
+     
+    text-indent:-9999px;
+    height:72px;
+    margin-top:65px;
+    margin-right:0;
+    padding-right:26px;
+    margin-left:0;
+    margin-left:50px;
+    border-right:1px solid #cccccc;
+}
+
+#logoHead:hover{
+    cursor:pointer;
+}
+
+#header h2{
+
+    position:middle;
+    padding-left:25px;
+    width:60px;
+    top:25px;
+    left:270px;
+
+}
+
+
+
+#mainNav{
+    position:relative;
+    float:left;
+    width:510px;
+    margin-bottom:10px;
+    margin-left:60px;
+    margin-top:35px;
+    margin-right:0;
+
+}
+
+#mainNav>li{
+    margin:0;
+    margin-right:30px;
+}
+
+#mainNav li:last-child{
+    margin-right:0;
+}
+
+
+
+
+
+
+
+#connect{
+    border-top:1px solid #cccccc;
+}
+
+#connect h2{
+
+    display: inline;
+    float:left;
+    padding-right:25px;
+    margin-left:10px;
+    margin-top:50px;
+    margin-bottom:60px;
+}
+
+#socialMedia{
+    display:inline;
+    margin-left:15px;
+    overflow:hidden;
+}
+
+#socialMedia li{
+    display:block;
+    float:left;
+    margin-left:9px;
+    margin-top:52px;
+    padding-top:0;
+}
+
+#socialMedia a{
+
+    text-indent:-9999px;
+    display:block;
+    width:26px;
+    height:26px;
+}
+
+#socialMedia a.first:hover{
+    background-position: 0 -27px;
+}
+
+#socialMedia a.second{
+    background-position: -32px 0;
+}
+
+#socialMedia a.second:hover{
+    background-position: -32px -27px;
+}
+
+#socialMedia a.third{
+    background-position: -65px 0;
+}
+
+#socialMedia a.third:hover{
+    background-position: -65px -27px;
+}
+
+#socialMedia a.fourth{
+    background-position: -98px 0;
+}
+
+#socialMedia a.fourth:hover{
+    background-position: -98px -27px;
+}
+
+#socialMedia a.fifth{
+    background-position: -133px 0;
+}
+
+#socialMedia a.fifth:hover{
+    background-position: -133px -27px;
+}
+
+#socialMedia li:last-child{
+     margin-right:55px;
+}
+
+
+
+
+
+#footer{
+
+    border-top:1px solid #cccccc;
+    clear:both;
+    width:940px;
+    position:relative;
+    margin-top:-300px;
+    height:300px;
+    clear:both;
+    padding-top:70px;
+}
+
+#footInfo{
+    width:299px;
+background:#f6f6f6;
+text-align:right;
+    padding-right:60px;
+padding-bottom:30px;
+margin-right:0;
+    margin-left:0;
+}
+
+#footInfo #footLogo{
+margin-top:25px;
+margin-bottom:5px;
+margin-right:0;
+}
+
+#footInfo p{
+    margin-top:0;
+    margin-bottom:0;
+color:#999999;
+}
+
+#footInfo #phone{
+margin-bottom:25px;
+color:#666666;
+}
+
+#footInfo a{
+color:#b32b2b;
+}
+
+#footInfo a:hover{
+color:#111111;
+}
+
+#footInfo h2 a{
+color:#00a6d5;
+}
+
+#footInfo span{
+    color:#999999;
+    width:330px;
+    font-size:10px;
+}
+
+#footInfo h2{
+display:inline;
+margin-left:5px;
+font-size:12px
+}
